@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e0cbb03-57cb-4f42-a40c-2b0b54b1441d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oj/chessboardCover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj/shellSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point-to-offer/18-delete_node_in_linklist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point-to-offer/19_rematch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point-to-offer/20-is_numeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point-to-offer/21-reorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point-to-offer/22-find_Kth_to_tail.py" afterDir="false" />
+    <list default="true" id="8e0cbb03-57cb-4f42-a40c-2b0b54b1441d" name="Default Changelist" comment="23-26">
+      <change afterPath="$PROJECT_DIR$/point-to-offer/23-find_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point-to-offer/24-reverse_link_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point-to-offer/25-merge_linkList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point-to-offer/26-has_subtree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point-to-offer/17-print_to_max_N_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/point-to-offer/17-print_to_max_N_digits.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +24,20 @@
     <SUITE FILE_PATH="coverage/LeetCodePy$minimumSwaps.coverage" NAME="minimumSwaps Coverage Results" MODIFIED="1545046825661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$cowOfFooland.coverage" NAME="cowOfFooland Coverage Results" MODIFIED="1547473571002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
     <SUITE FILE_PATH="coverage/LeetCodePy$longestPalindromeSubist.coverage" NAME="longestPalindromeSubist Coverage Results" MODIFIED="1545655108181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$26_has_subtree.coverage" NAME="26-has_subtree Coverage Results" MODIFIED="1550550200604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$verifySequenceOfBST.coverage" NAME="verifySequenceOfBST Coverage Results" MODIFIED="1547464278802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1545657080225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
     <SUITE FILE_PATH="coverage/LeetCodePy$3_duplicatedNumInArr.coverage" NAME="3-duplicatedNumInArr Coverage Results" MODIFIED="1547625427655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$relativeSort.coverage" NAME="relativeSort Coverage Results" MODIFIED="1545048090215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$8_find_next_node_in_inordered.coverage" NAME="8-find_next_node_in_inordered Coverage Results" MODIFIED="1547702282687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$20_.coverage" NAME="20_表示数值的字符串 Coverage Results" MODIFIED="1548916356509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CodingInterviewChinese2" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$25_merge_linkList.coverage" NAME="25-merge_linkList Coverage Results" MODIFIED="1550545913595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$13_moving_count.coverage" NAME="13-moving_count Coverage Results" MODIFIED="1547879497509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
-    <SUITE FILE_PATH="coverage/LeetCodePy$sortByNum.coverage" NAME="sortByNum Coverage Results" MODIFIED="1545051217202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$prediction.coverage" NAME="prediction Coverage Results" MODIFIED="1547864960474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$sortByNum.coverage" NAME="sortByNum Coverage Results" MODIFIED="1545051217202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$pairOfSumTwo.coverage" NAME="pairOfSumTwo Coverage Results" MODIFIED="1544442308954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCodePy$4_find_in_matrix.coverage" NAME="4-find-in-matrix Coverage Results" MODIFIED="1547627765850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$22_find_Kth_to_tail.coverage" NAME="22-find_Kth_to_tail Coverage Results" MODIFIED="1549006306369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$4_find_in_matrix.coverage" NAME="4-find-in-matrix Coverage Results" MODIFIED="1547627765850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$repalce_space.coverage" NAME="repalce_space Coverage Results" MODIFIED="1547693571485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$TheInfiniteString.coverage" NAME="TheInfiniteString Coverage Results" MODIFIED="1547469268793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
     <SUITE FILE_PATH="coverage/LeetCodePy$searchTextPattern.coverage" NAME="searchTextPattern Coverage Results" MODIFIED="1547473551102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
@@ -48,59 +46,63 @@
     <SUITE FILE_PATH="coverage/LeetCodePy$print_list_reversingly.coverage" NAME="print_list_reversingly Coverage Results" MODIFIED="1547693902751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$21_reorder.coverage" NAME="21-reorder Coverage Results" MODIFIED="1548925546321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$AddTwoNumbers.coverage" NAME="AddTwoNumbers Coverage Results" MODIFIED="1544857446246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$23_find_loop.coverage" NAME="23-find_loop Coverage Results" MODIFIED="1550543090629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$20_is_numeric.coverage" NAME="20-is_numeric Coverage Results" MODIFIED="1548916595030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point-to-offer" />
     <SUITE FILE_PATH="coverage/LeetCodePy$LongestPalindromicSubstring.coverage" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1545036480445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$LongestSubStr.coverage" NAME="LongestSubStr Coverage Results" MODIFIED="1545027219173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCodePy$work1.coverage" NAME="work1 Coverage Results" MODIFIED="1544510645809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../南大软院课程/高级算法/homework/work1" />
     <SUITE FILE_PATH="coverage/LeetCodePy$21_.coverage" NAME="21_调整数组顺序使奇数位于偶数前面 Coverage Results" MODIFIED="1548925558916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CodingInterviewChinese2" />
     <SUITE FILE_PATH="coverage/LeetCodePy$Queriesforcountsofmultiplesinanarray.coverage" NAME="Queriesforcountsofmultiplesinanarray Coverage Results" MODIFIED="1547470423470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oj" />
+    <SUITE FILE_PATH="coverage/LeetCodePy$26_.coverage" NAME="26_树的子结构 Coverage Results" MODIFIED="1550550238001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CodingInterviewChinese2" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1782797811">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="65" />
+          <entry key="py" value="77" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="65" />
+          <entry key="Python" value="77" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="12337" />
+          <entry key="py" value="14294" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="12337" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="14294" />
         </counts>
       </usages-collector>
     </session>
     <session id="-950642555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -131,22 +133,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/22_链表中倒数第k个节点.py">
+        <entry file="file://$PROJECT_DIR$/point-to-offer/25-merge_linkList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="31" />
+            <state relative-caret-position="540">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <marker date="1550547345754" expanded="true" signature="156:443" ph="..." />
+                <marker date="1550547345754" expanded="true" signature="470:475" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/26_树的子结构.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/point-to-offer/22-find_Kth_to_tail.py">
+        <entry file="file://$PROJECT_DIR$/point-to-offer/26-has_subtree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <marker date="1549006306362" expanded="true" signature="146:147" ph="..." />
-                <marker date="1549006306362" expanded="true" signature="146:411" ph="..." />
+                <marker date="1550550366750" expanded="true" signature="23:28" ph="..." />
+                <marker date="1550550366750" expanded="true" signature="536:539" ph="..." />
+                <marker date="1550550366750" expanded="true" signature="536:543" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,6 +234,11 @@
         <option value="$PROJECT_DIR$/point-to-offer/20-is_numeric.py" />
         <option value="$PROJECT_DIR$/point-to-offer/21-reorder.py" />
         <option value="$PROJECT_DIR$/point-to-offer/22-find_Kth_to_tail.py" />
+        <option value="$PROJECT_DIR$/point-to-offer/23-find_loop.py" />
+        <option value="$PROJECT_DIR$/point-to-offer/24-reverse_link_list.py" />
+        <option value="$PROJECT_DIR$/point-to-offer/25-merge_linkList.py" />
+        <option value="$PROJECT_DIR$/../CodingInterviewChinese2/26_树的子结构.py" />
+        <option value="$PROJECT_DIR$/point-to-offer/26-has_subtree.py" />
       </list>
     </option>
   </component>
@@ -228,9 +249,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="416" />
+    <option name="x" value="415" />
     <option name="y" value="23" />
-    <option name="width" value="1024" />
+    <option name="width" value="1025" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -258,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,7 +296,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,95 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.22-find_Kth_to_tail">
-    <configuration name="20-is_numeric" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodePy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point-to-offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point-to-offer/20-is_numeric.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20_表示数值的字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodePy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CodingInterviewChinese2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CodingInterviewChinese2/20_表示数值的字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="21-reorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodePy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point-to-offer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point-to-offer/21-reorder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="21_调整数组顺序使奇数位于偶数前面" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodePy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CodingInterviewChinese2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CodingInterviewChinese2/21_调整数组顺序使奇数位于偶数前面.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.26_树的子结构">
     <configuration name="22-find_Kth_to_tail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodePy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -411,20 +344,108 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="23-find_loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point-to-offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point-to-offer/23-find_loop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="25-merge_linkList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point-to-offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point-to-offer/25-merge_linkList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="26-has_subtree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point-to-offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point-to-offer/26-has_subtree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="26_树的子结构" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CodingInterviewChinese2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CodingInterviewChinese2/26_树的子结构.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.20-is_numeric" />
-      <item itemvalue="Python.20_表示数值的字符串" />
-      <item itemvalue="Python.21-reorder" />
-      <item itemvalue="Python.21_调整数组顺序使奇数位于偶数前面" />
       <item itemvalue="Python.22-find_Kth_to_tail" />
+      <item itemvalue="Python.23-find_loop" />
+      <item itemvalue="Python.25-merge_linkList" />
+      <item itemvalue="Python.26-has_subtree" />
+      <item itemvalue="Python.26_树的子结构" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.26_树的子结构" />
+        <item itemvalue="Python.26-has_subtree" />
+        <item itemvalue="Python.25-merge_linkList" />
+        <item itemvalue="Python.23-find_loop" />
         <item itemvalue="Python.22-find_Kth_to_tail" />
-        <item itemvalue="Python.21_调整数组顺序使奇数位于偶数前面" />
-        <item itemvalue="Python.21-reorder" />
-        <item itemvalue="Python.20-is_numeric" />
-        <item itemvalue="Python.20_表示数值的字符串" />
       </list>
     </recent_temporary>
   </component>
@@ -439,6 +460,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544432742891</updated>
     </task>
+    <task id="LOCAL-00001" summary="17-22">
+      <created>1549006325847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549006325848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -451,15 +480,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="416" y="23" width="1024" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="415" y="23" width="1025" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909255" visible="true" weight="0.28513238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909255" visible="true" weight="0.30010173" />
       <window_info id="Structure" order="1" sideWeight="0.5009074" side_tool="true" weight="0.15794979" />
       <window_info id="Favorites" order="2" sideWeight="0.5009074" side_tool="true" weight="0.15794979" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22292994" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22292994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3133758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,6 +510,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="17-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="17-22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,62 +561,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oj/sortByNum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oj/relativeSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oj/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oj/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oj/painter’spartition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oj/upThenDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/print_tree_from_top_to_bottom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/verifySequenceOfBST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oj/longestPalindromeSubist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -712,10 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <marker date="1547694363690" expanded="true" signature="182:187" ph="..." />
-            <marker date="1547694363690" expanded="true" signature="406:468" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,13 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Caches/PyCharm2018.2/python_stubs/-1199943128/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="224" column="4" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Caches/PyCharm2018.2/python_stubs/-1199943128/builtins.py" />
     <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/8_二叉树的下一个节点.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -754,13 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pandas/core/reshape/merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pandas/core/reshape/merge.py" />
     <entry file="file://$PROJECT_DIR$/../nbaPrediction/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -793,12 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <marker date="1547879497502" expanded="true" signature="28:33" ph="..." />
-            <marker date="1547879497502" expanded="true" signature="500:505" ph="..." />
-            <marker date="1547879497502" expanded="true" signature="952:953" ph="..." />
-            <marker date="1547879497502" expanded="true" signature="1204:1209" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,9 +776,7 @@
     <entry file="file://$PROJECT_DIR$/point-to-offer/11-find_min_in_rotated_arr.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/19_rematch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/19_rematch.py" />
     <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/19_正则表达式匹配.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -839,16 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/20-is_numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <marker date="1548916595022" expanded="true" signature="23:28" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/20-is_numeric.py" />
     <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/21_调整数组顺序使奇数位于偶数前面.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -856,31 +799,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/21-reorder.py">
+    <entry file="file://$PROJECT_DIR$/point-to-offer/21-reorder.py" />
+    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/22_链表中倒数第k个节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/23-find_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
-            <marker date="1548926182238" expanded="true" signature="31:32" ph="..." />
-            <marker date="1548926182238" expanded="true" signature="31:502" ph="..." />
+            <marker date="1550544644967" expanded="true" signature="136:137" ph="..." />
+            <marker date="1550544644967" expanded="true" signature="588:854" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/22_链表中倒数第k个节点.py">
+    <entry file="file://$PROJECT_DIR$/point-to-offer/22-find_Kth_to_tail.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/23_链表中环的入口节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="31" />
+        <state relative-caret-position="366">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point-to-offer/22-find_Kth_to_tail.py">
+    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/24_反转链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/24-reverse_link_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <marker date="1549006306362" expanded="true" signature="146:147" ph="..." />
-            <marker date="1549006306362" expanded="true" signature="146:411" ph="..." />
+            <marker date="1550544644962" expanded="true" signature="144:149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/25_合并两个排序的链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/25-merge_linkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <marker date="1550547345754" expanded="true" signature="156:443" ph="..." />
+            <marker date="1550547345754" expanded="true" signature="470:475" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CodingInterviewChinese2/26_树的子结构.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point-to-offer/26-has_subtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1550550366750" expanded="true" signature="23:28" ph="..." />
+            <marker date="1550550366750" expanded="true" signature="536:539" ph="..." />
+            <marker date="1550550366750" expanded="true" signature="536:543" ph="..." />
           </folding>
         </state>
       </provider>
