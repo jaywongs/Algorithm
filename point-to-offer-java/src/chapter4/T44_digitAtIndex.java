@@ -22,10 +22,9 @@ public class T44_digitAtIndex {
         return digits == 1 ? 0 : (int) (9 * Math.pow(10, digits - 1));
     }
 
-    private int digitAtIndex(int digits, int index) {
-        int nums = index / digits;
+    private int digitAtIndex(int digits, int index) { //获取位置
         int beginNum = getBeginNumber(digits);
-        int val = beginNum + nums;
+        int val = beginNum + index / digits;
         int indexFromNum = index % digits;
         for (int i = 0; i < indexFromNum; i++)
             val /= 10;
@@ -34,6 +33,5 @@ public class T44_digitAtIndex {
 
     private int getBeginNumber(int digits) {
         return digits == 1 ? 0 : (int) Math.pow(10, digits - 1);
-
     }
 }
