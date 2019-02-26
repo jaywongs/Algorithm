@@ -3,7 +3,7 @@ package chapter4;
 /**
  * Created by jaywangs on 2019/2/25
  */
-public class T46_numDecodings {
+public class T47_numDecodings {
     private int numDecodings(String s) {
         if (s == null || s.length() < 2)
             return 1;
