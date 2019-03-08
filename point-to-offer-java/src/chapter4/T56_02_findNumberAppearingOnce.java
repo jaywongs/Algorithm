@@ -7,7 +7,7 @@ public class T56_02_findNumberAppearingOnce {
     public int findNumberAppearingOnce(int[] nums) {
         int[] bits = new int[32];
         for (int num : nums) {
-            for (int j = 0; j < 32; ++j){
+            for (int j = 0; j < 32; ++j) {
                 bits[j] += (num & 1);
                 num = num >> 1;
             }
@@ -18,5 +18,7 @@ public class T56_02_findNumberAppearingOnce {
                 res += Math.pow(2, i);
         }
         return res;
+
     }
+
 }

@@ -16,24 +16,23 @@ public class T37_SerializeTree {
     }
 
     public TreeNode Deserialize(String str){
-        deserializeStr = str;
-        return Deserialize();
+        if (str == null || str.length() == 0)
+            return null;
+        String[] treeNodeStr = str.split(" ");
+        return Deserialize(treeNodeStr);
     }
 
-    private TreeNode Deserialize(){
-        if (deserializeStr.length() == 0) {
-            return null;
+    private int index = -1;
+
+    private TreeNode Deserialize(String[] treeNodeStr){
+        index ++;
+        TreeNode node = null;
+        if (index < treeNodeStr.length && treeNodeStr[index] != "#"){
+            node = new TreeNode(Integer.valueOf(treeNodeStr[index]));
+            node.left = Deserialize(treeNodeStr);
+            node.right = Deserialize(treeNodeStr);
         }
-        int index = deserializeStr.indexOf(" ");
-        String node = index == -1 ? deserializeStr : deserializeStr.substring(0, index);
-        deserializeStr = index == -1 ? "" : deserializeStr.substring(index + 1);
-        if (node.equals("#"))
-            return null;
-        int val = Integer.valueOf(node);
-        TreeNode t = new TreeNode(val);
-        t.left = Deserialize();
-        t.right = Deserialize();
-        return t;
+        return node;
     }
 
 }

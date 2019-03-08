@@ -3,7 +3,7 @@ package chapter4;
 /**
  * Created by jaywangs on 2019/2/26
  */
-public class T46_MaxValue {
+public class T47_MaxValue {
 
     public int getMaxValue(int [][] grid) {
         if (grid == null || grid.length == 0) return 0;
