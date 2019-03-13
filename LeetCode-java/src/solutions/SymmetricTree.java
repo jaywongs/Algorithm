@@ -1,6 +1,5 @@
 package solutions;
 
-import com.sun.tools.hat.internal.model.Root;
 
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).

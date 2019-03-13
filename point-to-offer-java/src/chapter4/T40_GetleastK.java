@@ -23,7 +23,7 @@ import java.util.PriorityQueue;
 
 **注意**，这种方法会修改输入的数组。时间复杂度为 `O(n)`。*/
 public class T40_GetleastK {
-    public ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
+    public static ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
         ArrayList<Integer> res = new ArrayList<>();
         if (input == null || input.length == 0 || input.length < k || k < 1) {
             return res;
@@ -45,7 +45,7 @@ public class T40_GetleastK {
         return res;
     }
 
-    private int partition(int[] input, int start, int end) {
+    private static int partition(int[] input, int start, int end) {
         int index = start - 1;
         for (int i = start; i < end; ++i) {
             if (input[i] < input[end]) {
@@ -57,7 +57,7 @@ public class T40_GetleastK {
         return index;
     }
 
-    private void swap(int[] array, int i, int j) {
+    private static void swap(int[] array, int i, int j) {
         int t = array[i];
         array[i] = array[j];
         array[j] = t;
@@ -94,4 +94,8 @@ public class T40_GetleastK {
         return res;
     }
 
+    public static void main(String[] args) {
+        int [] input = {3,4,6,2,6,8,1};
+        System.out.print(GetLeastNumbers_Solution(input, 4));
+    }
 }
