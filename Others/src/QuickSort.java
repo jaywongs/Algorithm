@@ -1,5 +1,3 @@
-package chapter4;
-
 /**
  * Created by jaywangs on 2019/2/23
  */
@@ -18,7 +16,7 @@ public class QuickSort {
         while (low < high){
             while (low < high && pivot <= arr[high]) --high;
             arr[low] = arr[high];
-            while (low<high && arr[low]<=pivot) ++low;
+            while (low < high && pivot >= arr[low]) ++low;
             arr[high] = arr[low];
         }
         //扫描完成，枢轴到位
@@ -55,7 +53,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 4, 8, 2, 55, 3, 4, 8, 6, 4, 0, 11, 34, 90, 23, 54, 77, 9, 2, 9, 4, 10};
-        qsort2(arr, 0, arr.length - 1);
+        qsort(arr, 0, arr.length - 1);
         String out = "";
         for (int digit : arr) {
             out += (digit + ",");
