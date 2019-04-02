@@ -1,4 +1,4 @@
-package solutions.dynamicProgramming;
+package solutions.greedyAlgorithm;
 import java.util.Arrays;
 /**
  * created by jaywang on 2019/3/11.
