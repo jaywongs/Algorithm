@@ -1,4 +1,4 @@
-package solutions.greedyAlgorithm;
+package solutions.greedy;
 
 /**
  * Created by jaywangs on 2019/4/7

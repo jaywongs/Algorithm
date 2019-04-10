@@ -9,29 +9,34 @@ import java.util.Scanner;
  */
 public class Main1 {
 
+    /**
+     * 第一题，你有n种不同面值的硬币，每种硬币有无数个，现在你有可能找零1-m的任意数值，
+     * 问你最少带着多少枚的硬币能够应对所有找零的情况。如果无解输出-1
+     **/
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int m = in.nextInt();
+        int amount = in.nextInt();
         int n = in.nextInt();
 
-        int []arr = new int[n+1];
+        int []coins = new int[n+1];
 
         for(int i=1; i<=n; i++){
-            arr[i] = in.nextInt();
+            coins[i] = in.nextInt();
         }
-        Arrays.sort(arr);
-        if(arr[1] != 1) System.out.println(-1);
+        Arrays.sort(coins);
+        if(coins[1] != 1)
+            System.out.println(-1);
 
         int sum=0,ans=0;
         while(true){
-            if(sum>=m){
+            if(sum>=amount){
                 System.out.println(ans);
                 return;
             }
             for(int i=n;i>=1;i--)   //从大到小
-                if(arr[i] <= sum+1){
-                    sum+=arr[i];
+                if(coins[i] <= sum+1){
+                    sum+=coins[i];
                     ans++;
                     break;
                 }

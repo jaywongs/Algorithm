@@ -1,4 +1,4 @@
-package solutions.greedyAlgorithm;
+package solutions.greedy;
 import java.util.Arrays;
 /**
  * created by jaywang on 2019/3/11.
