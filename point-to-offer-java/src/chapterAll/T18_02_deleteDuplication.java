@@ -1,4 +1,4 @@
-package chapter4;
+package chapterAll;
 
 import structure.ListNode;
 
@@ -10,8 +10,8 @@ public class T18_02_deleteDuplication {
         if (pHead == null || pHead.next == null)
             return pHead;
         ListNode next = pHead.next;
-        if (next.val == pHead.val) {
-            while (next != null && pHead.val == next.val)
+        if (pHead.val == next.val) {
+            while (next.val == next.next.val)
                 next = next.next;
             return deleteDuplication(next);
         }else {

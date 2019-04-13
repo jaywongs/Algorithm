@@ -1,6 +1,4 @@
-package chapter4;
-
-import java.util.Arrays;
+package chapterAll;
 
 /**
  * Created by jaywangs on 2019/3/8
